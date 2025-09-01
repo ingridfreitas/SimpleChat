@@ -1,66 +1,63 @@
+# PROJETO WEB - REDE SOCIAL ‘SIMPLECHAT’ 🌐
+**Módulo:** Bootcamp Desenvolvimento Web Responsivo  
+**Grupo 10**  
 
-# Projeto Web - Rede Social SimpleChat
-
-## Módulo
-Bootcamp Desenvolvimento Web Responsivo  
-
-## Grupo 10
 **Participantes:**  
-Bruna Benites, Gabriel Henrique Falsetti, Gabriel Pimenta Pereira, Geovana Moreira de Oliveira, Ingrid Heloise dos Santos Freitas, Joao Pedro Rodrigues Pires, Kelvin Kleyn Santos Grecia, Lara Fernanda Cruz de Lima, Letícia Isabela de Oliveira e Rafael Chun Lin Chen.  
+Bruna Benites, Gabriel Henrique Falsetti, Gabriel Pimenta Pereira, Geovana Moreira de Oliveira, Ingrid Heloise dos Santos Freitas, João Pedro Rodrigues Pires, Kelvin Kleyn Santos Grecia, Lara Fernanda Cruz de Lima, Letícia Isabela de Oliveira e Rafael Chun Lin Chen  
 
 ---
 
-## Introdução
-As redes sociais estão cada vez mais presentes no nosso dia a dia, ajudando na comunicação e na interação entre as pessoas.  
+## Introdução 💡
+As redes sociais atualmente estão presentes cada vez mais no nosso cotidiano, facilitando a comunicação e a interação entre as pessoas. Nesse projeto, foi dada a proposta de desenvolver uma aplicação web, sendo assim, escolhemos uma aplicação simples chamada **SimpleChat**.  
 
-Neste projeto, a proposta é desenvolver uma aplicação web chamada **SimpleChat**, que tem como objetivo ser uma rede social simples e acessível.  
+Em uma reunião feita em grupo, foi decidido que a rede social teria como ponto fundamental o uso de vários usuários ter a praticidade de se comunicar e compartilhar momentos entre eles de uma forma simples e prática.  
 
-A ideia é que os usuários consigam se comunicar e compartilhar momentos de forma prática. Além disso, o projeto serve também como uma forma de colocar em prática os conhecimentos adquiridos até aqui no bootcamp.  
-
----
-
-## Descrição do Projeto
-O **SimpleChat** é uma rede social inspirada em plataformas como Facebook e Orkut, mas de forma mais simples e direta.  
-
-### Algumas funcionalidades pensadas:
-- Criação de perfis personalizados (foto de perfil, banner e galeria de imagens).  
-- Publicação de comentários e compartilhamento de conteúdo.  
-- Interação entre usuários.  
-- Navegação simples e adaptada para diferentes dispositivos.  
-- Design pensado para ser fácil de usar e atrativo.  
+O **SimpleChat** vem com a ideia de ser uma rede social acessível para todos, mas também é uma aplicação onde podemos desenvolver nossas habilidades e conhecimento que adquirimos até o presente momento.  
 
 ---
 
-## Objetivos
-O principal objetivo do **SimpleChat** é facilitar a interação e a troca de informações em um ambiente digital.  
+## Descrição do Projeto 📄
+O projeto consiste no desenvolvimento de uma rede social inspirada em plataformas como Facebook e Orkut, voltada para promover interação entre usuários em um ambiente digital moderno e intuitivo. O sistema permitirá a criação de perfis personalizados, nos quais cada usuário poderá adicionar uma foto de perfil, um banner de destaque e manter uma galeria de imagens pessoais.  
 
-### Objetivos específicos:
+Além disso, a rede social oferecerá recursos para publicação de comentários, compartilhamento de conteúdo e interação direta entre os participantes, incentivando a comunicação e a troca de experiências. O design será estruturado para proporcionar uma navegação simples e acessível, garantindo que o usuário consiga facilmente visualizar publicações, interagir com amigos e gerenciar seu próprio perfil.  
+
+Com essa proposta, o projeto busca criar uma plataforma interativa e dinâmica, que una funcionalidades clássicas de redes sociais a uma interface clara e atrativa, atendendo às necessidades de socialização e compartilhamento de informações no meio digital.  
+
+---
+
+## Objetivo 🎯
+Uma rede social tem como objetivo facilitar a interação, troca de informação e criação de conexão social e profissional.  
+Contudo os principais objetivos são:  
+
 1. **Conexão e compartilhamento**  
-   - Permitir contato entre pessoas em diferentes lugares.  
-   - Ajudar a manter relacionamentos pessoais e profissionais.  
+   - Tornar possível o contato entre pessoas em diferentes lugares do mundo  
+   - Facilitar a manutenção de relacionamentos pessoais e profissionais  
 
-2. **Compartilhamento de informações**  
-   - Publicação de fotos, vídeos, textos e opiniões.  
-   - Difusão de conteúdos educativos e culturais.  
+2. **Compartilhamento de informações e experiências**  
+   - Permitir que os usuários publiquem fotos, vídeos, textos e opiniões  
+   - Servir como canal para difusão de notícias, conteúdos educativos e culturais  
 
-3. **Comunidade e identidade**  
-   - Reunir pessoas com interesses em comum.  
-   - Espaço para expressão pessoal.  
+3. **Construção de comunidade e identidade**  
+   - Reunir pessoas com interesse semelhante  
+   - Dar espaço para expressão pessoal e construção da própria identidade digital  
 
 4. **Entretenimento e lazer**  
-   - Disponibilizar conteúdos divertidos.  
+   - Oferecer conteúdos divertidos  
 
 5. **Negócios e marketing**  
-   - Aproximar empresas de consumidores.  
-   - Permitir divulgação de serviços e marcas.  
+   - Empresas utilizam redes sociais para se aproximar dos consumidores, fortalecer marcas e aumentar vendas  
+   - Profissionais podem divulgar seus serviços e construir reputação  
 
 6. **Educação e conhecimento**  
-   - Servir como espaço de aprendizado e troca de experiências.  
+   - Muitas redes sociais também são usadas como fonte de aprendizados, troca de experiência e disseminação de pesquisas  
 
 ---
 
-## Tecnologias Utilizadas
-- **HTML** → estrutura do site (cabeçalho, feed, perfis etc.).  
-- **CSS** → aparência do site (cores, fontes, tamanhos e responsividade).  
-- **Visual Studio Code (VSCode)** → editor recomendado pelo professor, com recursos que ajudam na programação.  
-- **GitHub** → armazenamento e organização do projeto em grupo.
+## Tecnologias Utilizadas 🛠️
+A nossa ideia é criar uma rede social simples, e para isso pensamos em usar algumas ferramentas bem básicas e importantes:  
+
+- **HTML:** para montar a estrutura do site, separando cabeçalho, feed, perfis e outras partes principais  
+- **CSS:** para deixar tudo mais bonito e organizado, cuidando de cores, fontes, tamanhos e garantindo responsividade  
+- **JavaScript:** para tornar as páginas interativas e dinâmicas  
+- **Visual Studio Code (VSCode):** indicado pelo professor, ajuda a organizar o código, dá sugestões enquanto escrevemos e possui várias extensões úteis. Também é amplamente usado no mercado  
+- **GitHub:** para guardar os arquivos do projeto e permitir que todo o grupo acesse e atualize o código de forma organizada e segura
