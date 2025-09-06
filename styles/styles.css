@@ -292,7 +292,7 @@ button .icone:hover {
         font-size: 1.7rem;
     }
 
-    .ocultar-desktop{
+    .ocultar-desktop {
         display: block;
     }
 
@@ -362,36 +362,37 @@ button .icone:hover {
         font-size: 1.2rem;
     }
 
-    .item p{
+    .item p {
         font-size: 1rem;
     }
 
-    #publicacao{
+    #publicacao {
         min-width: 68%;
         max-width: 68%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .ocultar-desktop{
+    .ocultar-desktop {
         display: block;
     }
 
-    .ocultar, .abrev {
+    .ocultar,
+    .abrev {
         display: none;
     }
 
-    .titulo{
+    .titulo {
         display: block;
     }
 
-    header{
+    header {
         height: 7rem;
         display: grid !important;
         grid-template-columns: 40% 60%;
         font-size: 1.5rem;
     }
-    
+
     .header-itens {
         padding: 0;
         margin: auto;
@@ -399,11 +400,12 @@ button .icone:hover {
         justify-content: space-between;
     }
 
-    .header-itens img{
+    .header-itens img {
         height: 5rem;
     }
 
-    .header-itens i, .header-itens span{
+    .header-itens i,
+    .header-itens span {
         font-size: 3rem;
     }
 
@@ -417,4 +419,85 @@ button .icone:hover {
         display: flex;
         flex-direction: column-reverse;
     }
+}
+
+/* Página de fotos */
+
+
+
+i {
+    font-size: 1.5rem;
+}
+
+
+.h2-destaques {
+    background-color: #5d17ea;
+    margin-top: 8rem;
+    height: 2.5rem;
+    width: 12rem;
+    color: #fff;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.destaques {
+    display: flex;
+    padding: 2rem 0;
+    gap: 2%;
+    width: 100%;
+}
+
+.imgs-destaque {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: 2px outset #5d17ea;
+    padding: 2px;
+}
+
+.div-destaques-fotos {
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.fotos-videos {
+    display: flex;
+    gap: 2rem;
+}
+
+.h2-fotos {
+    background-color: #5d17ea;
+    height: 2rem;
+    width: 10rem;
+    color: #fff;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 100%;
+    width: 100%;
+    border: 2px solid #5d17ea;
+    border-radius: 1rem;
+    padding: 2%;
+}
+
+.nova-foto i {
+    font-size: 6rem;
+    padding: 25%;
+}
+
+.div-fotos {
+    padding: 1rem;
+    min-height: 20%;
+    max-height: 20%;
+
+    min-width: 20%;
+    max-width: 20%;
+    border-radius: 2rem;
 }
