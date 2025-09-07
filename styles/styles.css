@@ -443,16 +443,16 @@ i {
 .destaques {
     display: flex;
     padding: 2rem 0;
-    gap: 2%;
+    gap: 1%;
     width: 100%;
 }
 
 .imgs-destaque {
-    height: 7rem;
-    width: 7rem;
+    height: 8rem;
+    width: 8rem;
     border-radius: 50%;
     border: 2px outset #5d17ea;
-    padding: 2px;
+    padding: 2.5px;
 }
 
 .div-destaques-fotos {
@@ -489,7 +489,7 @@ i {
 
 .nova-foto i {
     font-size: 6rem;
-    padding: 30%;
+    padding: 25%;
 }
 
 .div-fotos {
@@ -500,4 +500,18 @@ i {
     min-width: 20%;
     max-width: 20%;
     border-radius: 2rem;
+}
+
+.div-fotos:hover{
+    background-color: #0000001a;
+    padding: 1px;
+}
+
+.h2-fotos:hover{
+    background-color: #401a8b;
+}
+
+.imgs-destaque:hover{
+    background-color: #0000001a;
+    padding: 1px;
 }
