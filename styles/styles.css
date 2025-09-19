@@ -494,11 +494,9 @@ i {
 
 .div-fotos {
     padding: 1rem;
-    min-height: 20%;
-    max-height: 20%;
 
-    min-width: 20%;
-    max-width: 20%;
+    min-width: 25%;
+    max-width: 25%;
     border-radius: 2rem;
 }
 
