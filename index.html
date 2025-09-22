@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimpleChat</title>
+    <title>Página Inspirada no Facebook</title>
     <link rel="stylesheet"
         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
@@ -20,7 +20,7 @@
         <div class="header-itens">
             <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg" alt=""
                 class="foto-perfil">
-            <h2 class="pag-inicial ocultar">Página Inicial</h2>
+            <a href="index.html" class="pag-inicial ocultar">Página Inicial</a>
             <div class="home ocultar-desktop"><i class="las la-home"></i></i></div>
             <div class="divisor">|</div>
             <div class="mensagens"><i class="las la-envelope"></i></div>
@@ -30,69 +30,115 @@
             <div class="pesquisar ocultar-desktop"><i class="las la-search"></i></div>
         </div>
     </header>
-    <main>
-        <section class="perfil-container">
-            <div class="capa">
-                <div class="conteudo-perfil">
-                    <div class="foto-perfil">
+
+    <main class="container">
+        <!-- Menu Esquerdo -->
+        <aside class="sidebar left">
+            <ul>
+                <li><div class="inicial-perfil">
+                    <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg"
+                        alt="" class="pg-foto-perfil">
+                    <p class="text-link">Usuário</p>
+                </div></li>
+                <li><a href="perfil.html" class="text-link"><i class="las la-user-circle"></i> Perfil</a></li>
+                <li><a href="amigos.html" class="text-link"><i class="las la-user-friends"></i> Amigos</a></li>
+                <li><a href="photos.html" class="text-link"><i class="las la-photo-video"></i> Fotos</a></li>
+                
+            </ul>
+        </aside>
+
+        <!-- Feed Central -->
+        <section class="feed">
+            <div class="post">
+                <div class="post-header">
+                    <div class="inicial-perfil">
                         <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg"
-                            alt="" class="imagem-perfil">
-                    </div>
-                    <div class="detalhes-perfil">
-                        <h1 class="nome-perfil">Exemplo1</h1>
+                            alt="" class="pg-foto-perfil">
+                        <input type="text" placeholder="No que você está pensando?" id="post" class="post-input">
                     </div>
                 </div>
             </div>
-            
-            <nav class="menu-perfil">
-                <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Amigos</a></li>
-                    <li><a href="photos.html">Fotos</a></li>
-                    <li><a href="#">Mais</a></li>
-                </ul>
-            </nav>
-        </section>
-
-        <section class="info-perfil">
-            <section class="item-apresentacao">
-                <div class="nome-secao">
-                    <div class="circle"><i class="lar la-moon icone"></i></div>
-                    <h3>Meus Posts</h3>
-                </div>
-                <div class="posts-feed">
-                    <img src="https://www.animativa.com/wp-content/uploads/2024/10/super-herois-conheca-os-10-personagens-mais-populares.jpeg"
-                        alt="">
-                    <img src="https://i.pinimg.com/236x/86/ea/f0/86eaf05dc4c9ab32a01168d6710b95cc.jpg" alt="">
-                    <img src="https://i.pinimg.com/originals/68/b2/4d/68b24dc2fa02450984d9b7386e3cc019.png" alt="">
-                    <img src="https://img.freepik.com/fotos-gratis/closeup-tiro-de-uma-linda-borboleta-com-texturas-interessantes-em-uma-flor-de-petalas-de-laranja_181624-7640.jpg?semt=ais_incoming&w=740&q=80"
-                        alt="">
-                    <img src="https://i.pinimg.com/236x/58/83/71/5883719edede80221436679dd1438d7d.jpg" alt="">
-                    <img src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg" alt="">
-                </div>
-            </section>
-
-            <section class="item-publicacao">
-                <div class="acoes">
-                    <div class="item">
-                        <div class="circle"><i class="las la-plus icone"></i></div>
-                        <p>Criar Publicação</p>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="circle"><i class="las la-camera-retro icone"></i></div>
-                        <p>Foto | Vídeo</p>
+            <div class="post">
+                <div class="post-header">
+                    <div class="inicial-perfil">
+                        <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg"
+                            alt="" class="pg-foto-perfil">
+                        <strong>Hermione Granger</strong> • 5 min
                     </div>
                 </div>
-
-                <div class="posts-publicacao post-profile">
-                    <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg"
-                        alt="" class="foto-perfil">
-                    <textarea name="publicacao" id="publicacao" class="posts" placeholder="Escreva Algo..."></textarea>
-                    <button class="circle" id="Enviar"><i class="las la-paper-plane icone"></i></button>
+                <p>Hoje foi dia de muito estudo na biblioteca! ✨
+                    Nada melhor do que um bom café ☕ e livros 📖 para manter o foco.</p>
+                <img src="imgs/post1.jpeg" alt="Imagem do post">
+                <div class="post-actions">
+                    <button>Curtir</button>
+                    <button>Comentar</button>
+                    <button>Compartilhar</button>
                 </div>
-            </section>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <div class="inicial-perfil">
+                        <img src="https://static.wikia.nocookie.net/harrypotter/images/c/ce/Harry_Potter_DHF1.jpg/revision/latest?cb=20140603201724"
+                            alt="" class="pg-foto-perfil">
+                        <strong>Harry James Potter</strong> • 10 min
+                    </div>
+                </div>
+                <p>🌞 Bom dia, pessoal!
+                    Começar a semana com energia positiva faz toda a diferença 💪
+                    Que seja uma semana cheia de conquistas para todos nós! 🚀</p>
+                <img src="imgs/post2.jpeg" alt="Imagem do post">
+                <div class="post-actions">
+                    <button>Curtir</button>
+                    <button>Comentar</button>
+                    <button>Compartilhar</button>
+                </div>
+            </div>
         </section>
+
+        <!-- Menu Direito -->
+        <aside class="sidebar right">
+            <h4>Patrocinado</h4>
+            <div class="ad"><img src="imgs/propaganda.png" alt="Anúncio 1"></div>
+            <h4>Contatos</h4>
+            <ul>
+                <li>
+                    <div style="display: flex; align-items: center;">
+                        <div class="friend-avatar">
+                            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg"
+                                alt="Foto de Perfil">
+
+                        </div>
+                        <div class="friend-info">
+                            <h4>Hermione Granger</h4>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div style="display: flex; align-items: center;">
+                        <div class="friend-avatar">
+                            <img src="https://static.wikia.nocookie.net/harrypotter/images/c/ce/Harry_Potter_DHF1.jpg/revision/latest?cb=20140603201724"
+                                alt="Foto de Perfil">
+                        </div>
+                        <div class="friend-info">
+                            <h4>Harry James Potter</h4>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div style="display: flex; align-items: center;">
+
+                        <div class="friend-avatar">
+                            <img src="https://static.wixstatic.com/media/5a11cd_c8058875930046f8b5b47d6c63aacea6~mv2.jpg/v1/fill/w_350,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5a11cd_c8058875930046f8b5b47d6c63aacea6~mv2.jpg"
+                                alt="Foto de Perfil">
+                        </div>
+                        <div class="friend-info">
+                            <h4>Ronald Bilius Weasley</h4>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </aside>
     </main>
 </body>
 

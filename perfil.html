@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleChat</title>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-itens">
+            <h1 class="titulo ocultar">SimpleChat</h1>
+            <h1 class="ocultar-desktop abrev">SCh</h1>
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar" class="ocultar">
+        </div>
+        <div class="header-itens">
+            <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg" alt=""
+                class="foto-perfil">
+            <a href="index.html" class="pag-inicial ocultar">Página Inicial</a>
+            <div class="home ocultar-desktop"><i class="las la-home"></i></i></div>
+            <div class="divisor">|</div>
+            <div class="mensagens"><i class="las la-envelope"></i></div>
+            <div class="divisor">|</div>
+            <div class="configuracoes"><i class="las la-cog"></i></div>
+            <div class="divisor ocultar-desktop">|</div>
+            <div class="pesquisar ocultar-desktop"><i class="las la-search"></i></div>
+        </div>
+    </header>
+    <main>
+        <section class="perfil-container">
+            <div class="capa">
+                <div class="conteudo-perfil">
+                    <div class="foto-perfil">
+                        <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg"
+                            alt="" class="imagem-perfil">
+                    </div>
+                    <div class="detalhes-perfil">
+                        <h1 class="nome-perfil">Exemplo1</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="menu-perfil">
+                <ul>
+                    <li><a href="perfil.html">Sobre</a></li>
+                    <li><a href="amigos.html">Amigos</a></li>
+                    <li><a href="photos.html">Fotos</a></li>
+                    <li><a href="#">Mais</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="info-perfil">
+            <section class="item-apresentacao">
+                <div class="nome-secao">
+                    <div class="circle"><i class="lar la-moon icone"></i></div>
+                    <h3>Meus Posts</h3>
+                </div>
+                <div class="posts-feed">
+                    <img src="https://www.animativa.com/wp-content/uploads/2024/10/super-herois-conheca-os-10-personagens-mais-populares.jpeg"
+                        alt="">
+                    <img src="https://i.pinimg.com/236x/86/ea/f0/86eaf05dc4c9ab32a01168d6710b95cc.jpg" alt="">
+                    <img src="https://i.pinimg.com/originals/68/b2/4d/68b24dc2fa02450984d9b7386e3cc019.png" alt="">
+                    <img src="https://img.freepik.com/fotos-gratis/closeup-tiro-de-uma-linda-borboleta-com-texturas-interessantes-em-uma-flor-de-petalas-de-laranja_181624-7640.jpg?semt=ais_incoming&w=740&q=80"
+                        alt="">
+                    <img src="https://i.pinimg.com/236x/58/83/71/5883719edede80221436679dd1438d7d.jpg" alt="">
+                    <img src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg" alt="">
+                </div>
+            </section>
+
+            <section class="item-publicacao">
+                <div class="acoes">
+                    <div class="item">
+                        <div class="circle"><i class="las la-plus icone"></i></div>
+                        <p>Criar Publicação</p>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="circle"><i class="las la-camera-retro icone"></i></div>
+                        <p>Foto | Vídeo</p>
+                    </div>
+                </div>
+
+                <div class="posts-publicacao post-profile">
+                    <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg"
+                        alt="" class="foto-perfil">
+                    <textarea name="publicacao" id="publicacao" class="posts" placeholder="Escreva Algo..."></textarea>
+                    <button class="circle" id="Enviar"><i class="las la-paper-plane icone"></i></button>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
