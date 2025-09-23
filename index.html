@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inspirada no Facebook</title>
-    <link rel="stylesheet"
-        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -18,10 +17,9 @@
             <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar" class="ocultar">
         </div>
         <div class="header-itens">
-            <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg" alt=""
-                class="foto-perfil">
+            <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg" alt="Foto de Perfil" class="foto-perfil">
             <a href="index.html" class="pag-inicial ocultar">Página Inicial</a>
-            <div class="home ocultar-desktop"><i class="las la-home"></i></i></div>
+            <div class="home ocultar-desktop"><a href="index.html" style="color: white;"><i class="las la-home"></i></i></a></div>
             <div class="divisor">|</div>
             <div class="mensagens"><i class="las la-envelope"></i></div>
             <div class="divisor">|</div>
@@ -32,22 +30,21 @@
     </header>
 
     <main class="container">
-        <!-- Menu Esquerdo -->
         <aside class="sidebar left">
-            <ul>
-                <li><div class="inicial-perfil">
-                    <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg"
-                        alt="" class="pg-foto-perfil">
-                    <p class="text-link">Usuário</p>
-                </div></li>
+            <ul class="menu">
+                <li>
+                    <div class="inicial-perfil">
+                        <img src="https://thumbs.dreamstime.com/b/retrato-quadrado-do-close-up-do-gato-de-chita-9900445.jpg"
+                            alt="" class="pg-foto-perfil">
+                        <p class="text-link">Usuário</p>
+                    </div>
+                </li>
                 <li><a href="perfil.html" class="text-link"><i class="las la-user-circle"></i> Perfil</a></li>
                 <li><a href="amigos.html" class="text-link"><i class="las la-user-friends"></i> Amigos</a></li>
                 <li><a href="photos.html" class="text-link"><i class="las la-photo-video"></i> Fotos</a></li>
-                
+
             </ul>
         </aside>
-
-        <!-- Feed Central -->
         <section class="feed">
             <div class="post">
                 <div class="post-header">
@@ -94,9 +91,7 @@
                 </div>
             </div>
         </section>
-
-        <!-- Menu Direito -->
-        <aside class="sidebar right">
+        <aside class="sidebar right ocultar">
             <h4>Patrocinado</h4>
             <div class="ad"><img src="imgs/propaganda.png" alt="Anúncio 1"></div>
             <h4>Contatos</h4>
